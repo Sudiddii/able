@@ -32,8 +32,4 @@ if [ -z "$branch" ]; then
 fi
 
 /usr/bin/git push origin "HEAD:$branch" || exit 1
-if [ "$branch" != "main" ]; then
-  /usr/bin/git push origin HEAD:main || exit 1
-fi
-
-echo "$log_prefix synced $branch and main at $(/bin/date '+%Y-%m-%d %H:%M:%S %Z')"
+echo "$log_prefix synced $branch at $(/bin/date '+%Y-%m-%d %H:%M:%S %Z')"

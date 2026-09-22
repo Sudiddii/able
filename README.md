@@ -13,4 +13,4 @@ duplicate output folders and ZIP archives are intentionally excluded from Git.
 
 ## Automatic GitHub sync
 
-A local launch agent runs `.automation/github-auto-sync.sh` every five minutes. It commits detected changes and pushes the active branch plus `main` to GitHub using the macOS Keychain credential.
+A local launch agent runs `.automation/github-auto-sync.sh` every five minutes. It commits detected changes and pushes the active branch to GitHub using the macOS Keychain credential. Feature branches remain separate from `main` until they are reviewed and merged.
