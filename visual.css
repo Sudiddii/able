@@ -149,6 +149,9 @@
 }
 .products-page .product-hero-mosaic figure{
   aspect-ratio:auto;
+  min-width:0;
+  min-height:0;
+  height:100%;
 }
 .products-page .product-hero-mosaic img{
   height:100%!important;
