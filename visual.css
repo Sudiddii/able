@@ -96,3 +96,10 @@
 @media(max-width:767px){
   .home-polish .home-bento{grid-template-columns:1fr}
 }
+
+/* Category cards show category names only. */
+.home-polish .home-bento article>div>span,
+.home-polish .home-bento article>div>small,
+.home-polish .home-bento article>div>p{
+  display:none;
+}
