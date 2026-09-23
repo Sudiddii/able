@@ -102,3 +102,37 @@
 .home-polish .home-bento article>div>small{
   display:none;
 }
+
+/* Products and production galleries: paired categories and 2:3 process imagery. */
+.products-page .equal-category-grid{
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+}
+.products-page .equal-category-grid .card-arrow{
+  display:none!important;
+}
+.products-page .product-hero-mosaic{
+  height:auto!important;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  grid-template-rows:none;
+  gap:10px;
+  align-items:center;
+}
+.products-page .product-hero-mosaic .mosaic-large{
+  grid-row:auto;
+}
+.products-page .product-hero-mosaic figure{
+  width:100%;
+  aspect-ratio:2/3;
+}
+.products-page .product-hero-mosaic img,
+.products-page .material-gallery .material-cards img,
+.manufacturing-page .production-rail img{
+  width:100%;
+  height:auto!important;
+  aspect-ratio:2/3!important;
+  object-fit:cover;
+}
+@media(max-width:767px){
+  .products-page .equal-category-grid{grid-template-columns:1fr!important}
+  .products-page .product-hero-mosaic{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
