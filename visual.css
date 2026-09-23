@@ -36,3 +36,36 @@
 @media(max-width:1100px){.home-selection{gap:36px}.equal-category-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.five-route-cards{grid-template-columns:repeat(3,minmax(0,1fr))}.material-gallery .material-cards{grid-template-columns:repeat(3,minmax(230px,1fr))}.product-final-grid{gap:38px}}
 @media(max-width:767px){.home-selection{grid-template-columns:1fr;gap:30px}.home-selection figure{order:0}.selection-points li{grid-template-columns:82px 1fr}.buyer-paths-section{padding-inline:22px;padding-bottom:38px}.home-commerce-restored .extension-grid{gap:34px}.home-polish .process-journey{display:grid;grid-template-columns:1fr;gap:26px}.home-polish .process-journey::before{display:none}.home-polish .process-journey>li{display:grid;grid-template-columns:74px 1fr;gap:0 14px;padding:0}.home-polish .process-anchor{left:0;top:0}.home-polish .process-journey img{grid-column:1;grid-row:1;width:64px;height:48px;margin:10px 0 0 10px}.home-polish .process-copy{grid-column:2}.home-polish .process-output{margin-top:10px}.equal-category-grid{grid-template-columns:1fr!important;grid-auto-rows:330px!important}.direction-builder .direction-workspace>figure{min-height:440px}.material-gallery .material-cards{display:grid;grid-auto-flow:column;grid-auto-columns:76%;grid-template-columns:none;overflow-x:auto}.material-gallery .material-cards img{aspect-ratio:9/13}.product-final-grid{grid-template-columns:1fr}.product-final-grid figure{order:-1}.five-route-cards{grid-template-columns:1fr 1fr}.five-route-cards .routing-card{min-height:210px}.manufacturing-page .production-rail{grid-auto-columns:82%}.manufacturing-page .compact-logo-wall{grid-template-columns:repeat(3,1fr)}.manufacturing-page .manufacturing-cta{grid-template-columns:1fr}.manufacturing-page .manufacturing-cta figure{max-width:540px}}
 @media(max-width:480px){.five-route-cards{grid-template-columns:1fr}.five-route-cards .routing-card{min-height:0}.manufacturing-page .compact-logo-wall{grid-template-columns:repeat(2,1fr)}.material-gallery .material-cards{grid-auto-columns:84%}}
+
+/* September image-ratio and collection refinements */
+.home-polish .hero-art figure,
+.home-polish .home-bento article,
+.home-polish .home-selection figure img,
+.home-polish .development figure img,
+.home-polish .manufacturing-evidence figure,
+.home-polish .manufacturing-evidence figure img{border-radius:16px;overflow:hidden}
+.home-polish .home-bento{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.home-polish .home-bento article,
+.home-polish .home-bento article.featured{grid-column:auto!important;grid-row:auto!important;min-height:340px!important}
+.home-polish .home-bento article::after{inset:38% 0 0}
+.home-polish .home-bento .featured h3{font-size:23px}
+.home-selection{grid-template-columns:minmax(390px,.92fr) minmax(0,1.08fr)}
+.home-selection figure img,
+.home-polish .development figure img{width:100%;height:auto!important;aspect-ratio:4/3;object-fit:cover;border-radius:16px}
+.product-collections .equal-category-grid{margin-top:34px}
+.equal-category-grid .product-capability>a>.category-art img{width:100%!important;height:100%!important;aspect-ratio:auto!important;object-fit:cover!important}
+.material-gallery .material-cards img{width:100%;height:auto!important;aspect-ratio:9/16;object-fit:cover}
+.product-final-grid figure img{width:100%;height:auto!important;aspect-ratio:4/3;object-fit:cover}
+.manufacturing-page .production-rail{grid-auto-columns:minmax(210px,19%)}
+.manufacturing-page .production-rail img{width:100%;height:auto!important;aspect-ratio:9/16;object-fit:cover}
+@media(max-width:1100px){
+ .home-polish .home-bento{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .manufacturing-page .production-rail{grid-auto-columns:minmax(220px,30%)}
+}
+@media(max-width:767px){
+ .home-polish .home-bento{grid-template-columns:1fr}
+ .home-polish .home-bento article,.home-polish .home-bento article.featured{min-height:330px!important}
+ .home-selection{grid-template-columns:1fr}
+ .home-selection figure{order:1}
+ .manufacturing-page .production-rail{grid-auto-columns:72%}
+}
