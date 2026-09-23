@@ -97,9 +97,8 @@
   .home-polish .home-bento{grid-template-columns:1fr}
 }
 
-/* Category cards show category names only. */
+/* Category cards retain one descriptive line below each title. */
 .home-polish .home-bento article>div>span,
-.home-polish .home-bento article>div>small,
-.home-polish .home-bento article>div>p{
+.home-polish .home-bento article>div>small{
   display:none;
 }
