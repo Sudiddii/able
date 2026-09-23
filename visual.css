@@ -136,3 +136,34 @@
   .products-page .equal-category-grid{grid-template-columns:1fr!important}
   .products-page .product-hero-mosaic{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
+
+/* Product hero mosaic: one leading playful collection, two supporting images. */
+.products-page .product-hero-mosaic{
+  height:570px!important;
+  grid-template-columns:1.25fr .75fr;
+  grid-template-rows:repeat(2,minmax(0,1fr));
+  gap:12px;
+}
+.products-page .product-hero-mosaic .mosaic-large{
+  grid-row:1/3;
+}
+.products-page .product-hero-mosaic figure{
+  aspect-ratio:auto;
+}
+.products-page .product-hero-mosaic img{
+  height:100%!important;
+  aspect-ratio:auto!important;
+  object-fit:cover;
+}
+@media(max-width:1100px){
+  .products-page .product-hero-mosaic{height:470px!important}
+}
+@media(max-width:767px){
+  .products-page .product-hero-mosaic{
+    height:430px!important;
+    grid-template-columns:1.2fr .8fr;
+  }
+}
+@media(max-width:390px){
+  .products-page .product-hero-mosaic{height:370px!important}
+}
