@@ -70,3 +70,21 @@
  .manufacturing-page .production-rail{grid-auto-columns:72%}
 }
 .equal-category-grid .product-capability>a>.category-art{width:100%!important;height:100%!important;min-height:100%!important;aspect-ratio:auto!important}
+
+/* Keep category imagery consistently landscape at 5:3 on every viewport. */
+.home-polish .home-bento article,
+.home-polish .home-bento article.featured{
+  width:100%;
+  min-height:0!important;
+  aspect-ratio:5/3;
+}
+.equal-category-grid{
+  grid-auto-rows:auto!important;
+}
+.equal-category-grid .product-capability,
+.equal-category-grid .product-capability:nth-child(1),
+.equal-category-grid .product-capability:nth-child(2){
+  width:100%;
+  min-height:0!important;
+  aspect-ratio:5/3;
+}
