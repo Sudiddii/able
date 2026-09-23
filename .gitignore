@@ -3,3 +3,5 @@
 *.zip
 out/
 out 2/
+.playwright-cli/
+output/playwright/
