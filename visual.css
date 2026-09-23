@@ -69,3 +69,4 @@
  .home-selection figure{order:1}
  .manufacturing-page .production-rail{grid-auto-columns:72%}
 }
+.equal-category-grid .product-capability>a>.category-art{width:100%!important;height:100%!important;min-height:100%!important;aspect-ratio:auto!important}
