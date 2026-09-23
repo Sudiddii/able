@@ -1,0 +1,313 @@
+- generic [active] [ref=f15e1]:
+  - banner [ref=f15e2]:
+    - link "Able Trading home" [ref=f15e3] [cursor=pointer]:
+      - /url: index.html
+      - text: ABLE
+      - generic [ref=f15e4]: TRADING
+    - navigation "Main navigation" [ref=f15e5]:
+      - link "Home" [ref=f15e6] [cursor=pointer]:
+        - /url: index.html
+      - link "Products" [ref=f15e7] [cursor=pointer]:
+        - /url: products.html
+      - link "Manufacturing" [ref=f15e8] [cursor=pointer]:
+        - /url: manufacturing.html
+      - link "Commerce AI ↗" [ref=f15e9] [cursor=pointer]:
+        - /url: commerce-ai.html
+    - link "Start a manufacturing brief ↗" [ref=f15e10] [cursor=pointer]:
+      - /url: index.html?topic=manufacturing#brief
+  - main [ref=f15e11]:
+    - generic [ref=f15e12]:
+      - generic [ref=f15e13]:
+        - paragraph [ref=f15e14]: Manufacturing / Quanzhou, Fujian
+        - heading "Factory knowledge. From the floor up." [level=1] [ref=f15e15]: Factory knowledge.From the floor up.
+        - paragraph [ref=f15e16]: From tooling and hand finishing to quality checks and export packing, we coordinate the production path around your product.
+        - generic [ref=f15e17]:
+          - link "Start a manufacturing brief ↗" [ref=f15e18] [cursor=pointer]:
+            - /url: index.html?topic=manufacturing#brief
+          - link "See the production stages" [ref=f15e19] [cursor=pointer]:
+            - /url: "#production"
+      - figure "Illustrative manufacturing scene" [ref=f15e20]:
+        - img "Illustrative decorative ceramics and resin workshop with craftspeople finishing products" [ref=f15e21]
+        - generic [ref=f15e23]:
+          - generic [ref=f15e24]:
+            - strong [ref=f15e25]: Since 1993
+            - text: Manufacturing roots
+          - generic [ref=f15e26]:
+            - strong [ref=f15e27]: Quanzhou
+            - text: Fujian, China
+          - generic [ref=f15e28]:
+            - strong [ref=f15e29]: Resin & ceramic
+            - text: Craft foundations
+          - generic [ref=f15e30]:
+            - strong [ref=f15e31]: Specialist network
+            - text: Matched by product
+    - navigation "Manufacturing sections" [ref=f15e32]:
+      - link "01 / History" [ref=f15e33] [cursor=pointer]:
+        - /url: "#history"
+      - link "02 / Production model" [ref=f15e34] [cursor=pointer]:
+        - /url: "#capabilities"
+      - link "03 / Inside production" [ref=f15e35] [cursor=pointer]:
+        - /url: "#production"
+      - link "04 / Quality" [ref=f15e36] [cursor=pointer]:
+        - /url: "#quality"
+      - link "05 / Experience" [ref=f15e37] [cursor=pointer]:
+        - /url: "#experience"
+    - generic [ref=f15e38]:
+      - generic [ref=f15e39]:
+        - paragraph [ref=f15e40]: 01 / Manufacturing roots
+        - heading "Experience carried forward." [level=2] [ref=f15e41]
+        - paragraph [ref=f15e42]: Factory knowledge informs product development, sourcing decisions and production planning today.
+      - generic [ref=f15e43]:
+        - article [ref=f15e44]:
+          - text: "1993"
+          - heading "Manufacturing roots" [level=3] [ref=f15e45]
+          - paragraph [ref=f15e46]: Quangang Craft established in Quanzhou, focused on resin and ceramic decorative products.
+        - article [ref=f15e48]:
+          - text: Today
+          - heading "Development, sourcing & export" [level=3] [ref=f15e49]
+          - paragraph [ref=f15e50]: Able connects product briefs with affiliated manufacturing, specialist partners and export preparation.
+      - paragraph [ref=f15e51]: Quangang Craft Co., Ltd. is an affiliated manufacturing facility and a separate legal entity from Able Trading Co., Ltd.
+    - generic [ref=f15e53]:
+      - generic [ref=f15e54]:
+        - paragraph [ref=f15e55]: 02 / How production is matched
+        - heading "The right route for the product." [level=2] [ref=f15e56]
+        - paragraph [ref=f15e57]: Material, process, volume and destination determine the production resources.
+      - generic [ref=f15e58]:
+        - article [ref=f15e59]:
+          - generic [ref=f15e61]: Input
+          - heading "Your product brief" [level=3] [ref=f15e62]
+          - paragraph [ref=f15e63]: Product, market, quantity and target.
+          - strong [ref=f15e64]: What you need
+        - article [ref=f15e65]:
+          - generic [ref=f15e67]: Review
+          - heading "Able Trading" [level=3] [ref=f15e68]
+          - paragraph [ref=f15e69]: Feasibility, cost, quality and timing.
+          - strong [ref=f15e70]: Route definition
+        - article [ref=f15e71]:
+          - generic [ref=f15e73]: Route 01
+          - heading "Affiliated manufacturing" [level=3] [ref=f15e74]
+          - paragraph [ref=f15e75]: Resin, ceramic, casting and hand finishes.
+          - strong [ref=f15e76]: Craft-led decorative products
+        - article [ref=f15e77]:
+          - generic [ref=f15e79]: Route 02
+          - heading "Specialist partners" [level=3] [ref=f15e80]
+          - paragraph [ref=f15e81]: Wood, textile, metal and mixed materials.
+          - strong [ref=f15e82]: Matched by process
+        - article [ref=f15e83]:
+          - generic [ref=f15e85]: Route 03
+          - heading "Development resources" [level=3] [ref=f15e86]
+          - paragraph [ref=f15e87]: 3D, prototype, tooling and packaging.
+          - strong [ref=f15e88]: Used where needed
+      - generic "Production matching factors" [ref=f15e89]:
+        - generic [ref=f15e90]: Material
+        - generic [ref=f15e91]: Process
+        - generic [ref=f15e92]: Tooling
+        - generic [ref=f15e93]: MOQ
+        - generic [ref=f15e94]: Capacity
+        - generic [ref=f15e95]: Quality
+        - generic [ref=f15e96]: Lead time
+        - generic [ref=f15e97]: Market requirements
+    - generic [ref=f15e99]:
+      - generic [ref=f15e100]:
+        - paragraph [ref=f15e101]: 03 / Inside production
+        - heading "Eight stages. One reference." [level=2] [ref=f15e102]
+        - paragraph [ref=f15e103]: Follow how an approved specification moves toward a packed production order.
+      - generic [ref=f15e104]:
+        - paragraph [ref=f15e105]: Scroll to follow the stages
+        - generic "Production rail controls" [ref=f15e106]:
+          - button "Previous production stages" [ref=f15e107] [cursor=pointer]: ←
+          - button "Next production stages" [ref=f15e108] [cursor=pointer]: →
+      - list [ref=f15e109]:
+        - listitem [ref=f15e110]:
+          - img "Technician checking a decorative product mould" [ref=f15e111]
+          - generic [ref=f15e112]: "01"
+          - heading "Mould & tooling" [level=3] [ref=f15e113]
+          - paragraph [ref=f15e114]: Prepare the master, mould and repeatable production method.
+        - listitem [ref=f15e115]:
+          - img "Decorative forms being removed from moulds" [ref=f15e116]
+          - generic [ref=f15e117]: "02"
+          - heading "Forming & casting" [level=3] [ref=f15e118]
+          - paragraph [ref=f15e119]: Create consistent forms around the agreed construction.
+        - listitem [ref=f15e120]:
+          - img "Worker sanding a decorative object before finishing" [ref=f15e121]
+          - generic [ref=f15e122]: "03"
+          - heading "Surface preparation" [level=3] [ref=f15e123]
+          - paragraph [ref=f15e124]: Refine seams, edges and surfaces before decoration.
+        - listitem [ref=f15e125]:
+          - img "Craft worker hand-painting a decorative figurine" [ref=f15e126]
+          - generic [ref=f15e127]: "04"
+          - heading "Painting & decoration" [level=3] [ref=f15e128]
+          - paragraph [ref=f15e129]: Apply colour and detail against the approved reference.
+        - listitem [ref=f15e130]:
+          - img "Decorative product components being fitted and prepared" [ref=f15e131]
+          - generic [ref=f15e132]: "05"
+          - heading "Assembly" [level=3] [ref=f15e133]
+          - paragraph [ref=f15e134]: Fit components and check stability, alignment and function.
+        - listitem [ref=f15e135]:
+          - img "Inspector measuring a ceramic sample with calipers" [ref=f15e136]
+          - generic [ref=f15e137]: "06"
+          - heading "Quality control" [level=3] [ref=f15e138]
+          - paragraph [ref=f15e139]: Check dimensions, colour, finish and agreed details.
+        - listitem [ref=f15e140]:
+          - img "Decorative products secured in fitted protective packaging" [ref=f15e141]
+          - generic [ref=f15e142]: "07"
+          - heading "Packaging" [level=3] [ref=f15e143]
+          - paragraph [ref=f15e144]: Protect the product and prepare retail presentation.
+        - listitem [ref=f15e145]:
+          - img "Packed decorative products prepared for export" [ref=f15e146]
+          - generic [ref=f15e147]: "08"
+          - heading "Export preparation" [level=3] [ref=f15e148]
+          - paragraph [ref=f15e149]: Verify labels, cartons and shipment requirements.
+      - generic [ref=f15e150]:
+        - generic [ref=f15e151]: Approved specification
+        - generic [ref=f15e152]: →
+        - strong [ref=f15e153]: Packed production order
+      - paragraph [ref=f15e154]: Illustrative production imagery. Actual routes vary by material, product and factory.
+    - generic [ref=f15e156]:
+      - generic [ref=f15e157]:
+        - paragraph [ref=f15e158]: 04 / Quality built into the process
+        - heading "Approve the reference. Check against it." [level=2] [ref=f15e159]: Approve the reference.Check against it.
+        - paragraph [ref=f15e160]: Define what matters before production, then verify it through making and packing.
+      - generic [ref=f15e161]:
+        - article [ref=f15e162]:
+          - generic [ref=f15e163]: "01"
+          - heading "Specification" [level=3] [ref=f15e164]
+          - generic [ref=f15e165]:
+            - generic [ref=f15e166]: ✓Material
+            - generic [ref=f15e167]: ✓Dimensions
+            - generic [ref=f15e168]: ✓Colour
+        - article [ref=f15e169]:
+          - generic [ref=f15e170]: "02"
+          - heading "Golden sample" [level=3] [ref=f15e171]
+          - generic [ref=f15e172]:
+            - generic [ref=f15e173]: ✓Form
+            - generic [ref=f15e174]: ✓Finish
+            - generic [ref=f15e175]: ✓Function
+        - article [ref=f15e176]:
+          - generic [ref=f15e177]: "03"
+          - heading "Production check" [level=3] [ref=f15e178]
+          - generic [ref=f15e179]:
+            - generic [ref=f15e180]: ✓Consistency
+            - generic [ref=f15e181]: ✓Assembly
+            - generic [ref=f15e182]: ✓Surface
+        - article [ref=f15e183]:
+          - generic [ref=f15e184]: "04"
+          - heading "Pre-shipment" [level=3] [ref=f15e185]
+          - generic [ref=f15e186]:
+            - generic [ref=f15e187]: ✓Quantity
+            - generic [ref=f15e188]: ✓Condition
+            - generic [ref=f15e189]: ✓Labelling
+        - article [ref=f15e190]:
+          - generic [ref=f15e191]: "05"
+          - heading "Packing verification" [level=3] [ref=f15e192]
+          - generic [ref=f15e193]:
+            - generic [ref=f15e194]: ✓Protection
+            - generic [ref=f15e195]: ✓Cartons
+            - generic [ref=f15e196]: ✓Destination
+      - group [ref=f15e197]:
+        - generic "What manufacturing knowledge helps us catch early" [ref=f15e198] [cursor=pointer]
+    - generic [ref=f15e199]:
+      - generic [ref=f15e200]:
+        - paragraph [ref=f15e201]: 05 / Selected brand experience
+        - heading "Licensed character and retail programmes." [level=2] [ref=f15e202]
+        - paragraph [ref=f15e203]: Resin and ceramic collectibles, figurines and decorative merchandise produced through trading and licensee partners.
+        - generic [ref=f15e204]:
+          - generic [ref=f15e205]: Sculpted forms
+          - generic [ref=f15e206]: Hand painting
+          - generic [ref=f15e207]: Retail packaging
+      - list "Selected brand and IP experience" [ref=f15e208]:
+        - listitem [ref=f15e209]:
+          - img "Primark" [ref=f15e210]
+        - listitem [ref=f15e211]:
+          - img "TK Maxx" [ref=f15e212]
+        - listitem [ref=f15e213]:
+          - img "Walmart" [ref=f15e214]
+        - listitem [ref=f15e215]:
+          - img "How to Train Your Dragon" [ref=f15e216]
+        - listitem [ref=f15e217]:
+          - img "Star Wars" [ref=f15e218]
+        - listitem [ref=f15e219]:
+          - img "Transformers" [ref=f15e220]
+        - listitem [ref=f15e221]:
+          - img "Harry Potter" [ref=f15e222]
+        - listitem [ref=f15e223]:
+          - img "Alice in Wonderland" [ref=f15e224]
+        - listitem [ref=f15e225]:
+          - img "Minions" [ref=f15e226]
+        - listitem [ref=f15e227]:
+          - img "Marvel" [ref=f15e228]
+        - listitem [ref=f15e229]:
+          - img "Target" [ref=f15e230]
+        - listitem [ref=f15e231]:
+          - img "Spider-Man" [ref=f15e232]
+        - listitem [ref=f15e233]:
+          - img "Disney" [ref=f15e234]
+        - listitem [ref=f15e235]:
+          - img "Blizzard Entertainment" [ref=f15e236]
+        - listitem [ref=f15e237]:
+          - img "SpongeBob SquarePants" [ref=f15e238]
+        - listitem [ref=f15e239]:
+          - img "Pokémon" [ref=f15e240]
+        - listitem [ref=f15e241]:
+          - img "Peanuts" [ref=f15e242]
+        - listitem [ref=f15e243]:
+          - img "Zara" [ref=f15e244]
+        - listitem [ref=f15e245]:
+          - img "Dungeons & Dragons" [ref=f15e246]
+        - listitem [ref=f15e247]:
+          - img "Universal" [ref=f15e248]
+        - listitem [ref=f15e249]:
+          - img "Paw Patrol" [ref=f15e250]
+        - listitem [ref=f15e251]:
+          - img "Superman" [ref=f15e252]
+        - listitem [ref=f15e253]:
+          - img "Hasbro" [ref=f15e254]
+        - listitem [ref=f15e255]:
+          - img "Warner Bros." [ref=f15e256]
+        - listitem [ref=f15e257]:
+          - img "League of Legends" [ref=f15e258]
+        - listitem [ref=f15e259]:
+          - img "Angry Birds" [ref=f15e260]
+        - listitem [ref=f15e261]:
+          - img "DC" [ref=f15e262]
+        - listitem [ref=f15e263]:
+          - img "Paramount" [ref=f15e264]
+        - listitem [ref=f15e265]:
+          - img "Toy Story" [ref=f15e266]
+    - generic [ref=f15e268]:
+      - paragraph [ref=f15e269]:
+        - strong [ref=f15e270]: Need factory workflow or commerce automation?
+        - text: Wayfound extends Able’s product and manufacturing knowledge with custom software.
+      - link "Explore Commerce AI ↗" [ref=f15e271] [cursor=pointer]:
+        - /url: commerce-ai.html
+    - generic [ref=f15e272]:
+      - figure "Illustrative product brief and production-readiness review" [ref=f15e273]:
+        - img "Illustrative buyer and factory specialist reviewing a product sample, materials and packaging" [ref=f15e274]
+      - generic [ref=f15e276]:
+        - paragraph [ref=f15e277]: Start a manufacturing project
+        - heading "Bring the product. Define the production path." [level=2] [ref=f15e278]: Bring the product.Define the production path.
+        - generic [ref=f15e279]:
+          - generic [ref=f15e280]: Reference / sample
+          - generic [ref=f15e281]: Material & finish
+          - generic [ref=f15e282]: Dimensions
+          - generic [ref=f15e283]: Quantity
+          - generic [ref=f15e284]: Target price
+          - generic [ref=f15e285]: Packaging
+          - generic [ref=f15e286]: Destination
+          - generic [ref=f15e287]: Delivery timing
+        - generic [ref=f15e288]:
+          - link "Prepare a manufacturing brief ↗" [ref=f15e289] [cursor=pointer]:
+            - /url: index.html?topic=manufacturing#brief
+          - link "Explore product capabilities" [ref=f15e290] [cursor=pointer]:
+            - /url: products.html
+  - contentinfo [ref=f15e291]:
+    - link "ABLE TRADING" [ref=f15e292] [cursor=pointer]:
+      - /url: index.html
+      - text: ABLE
+      - generic [ref=f15e293]: TRADING
+    - paragraph [ref=f15e294]: Product opportunity. Manufacturing knowledge.
+    - link "Commerce AI ↗" [ref=f15e295] [cursor=pointer]:
+      - /url: commerce-ai.html
+    - link "Back to top" [ref=f15e296] [cursor=pointer]:
+      - /url: "#top"
+  - button "Ask Able ↗" [ref=f15e297] [cursor=pointer]

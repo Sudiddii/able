@@ -1,0 +1,410 @@
+- generic [active] [ref=f16e1]:
+  - banner [ref=f16e2]:
+    - link "Able Trading home" [ref=f16e3] [cursor=pointer]:
+      - /url: "#top"
+      - text: ABLE
+      - generic [ref=f16e4]: TRADING
+    - navigation "Main navigation" [ref=f16e5]:
+      - link "Services" [ref=f16e6] [cursor=pointer]:
+        - /url: "#services"
+      - link "Products" [ref=f16e7] [cursor=pointer]:
+        - /url: products.html
+      - link "Manufacturing" [ref=f16e8] [cursor=pointer]:
+        - /url: manufacturing.html
+      - link "Process" [ref=f16e9] [cursor=pointer]:
+        - /url: "#process"
+      - link "Commerce AI ↗" [ref=f16e10] [cursor=pointer]:
+        - /url: commerce-ai.html
+    - link "Start a conversation ↗" [ref=f16e11] [cursor=pointer]:
+      - /url: "#brief"
+  - main [ref=f16e12]:
+    - generic [ref=f16e13]:
+      - generic [ref=f16e14]:
+        - paragraph [ref=f16e15]: Sourcing · Development · Manufacturing · Export
+        - heading "Bold products. Thoughtful sourcing." [level=1] [ref=f16e16]: Bold products.Thoughtful sourcing.
+        - paragraph [ref=f16e17]: We turn product opportunities into buyer-ready ranges—from selection and sampling to manufacturing and export.
+        - generic [ref=f16e18]:
+          - link "Explore product capabilities ↗" [ref=f16e19] [cursor=pointer]:
+            - /url: products.html
+          - link "See how we manufacture" [ref=f16e20] [cursor=pointer]:
+            - /url: manufacturing.html
+        - generic "Able product journey" [ref=f16e21]:
+          - generic [ref=f16e22]: Discover
+          - generic [ref=f16e23]: →
+          - generic [ref=f16e24]: Develop
+          - generic [ref=f16e25]: →
+          - generic [ref=f16e26]: Make
+          - generic [ref=f16e27]: →
+          - generic [ref=f16e28]: Deliver
+      - generic "Expressive homeware product references" [ref=f16e29]:
+        - figure [ref=f16e30]:
+          - img "Colourful ceramic vase, incense holder and desktop organiser" [ref=f16e31]
+        - figure [ref=f16e32]:
+          - img "Sculptural metallic hallway organisers, mirror, hooks and umbrella stand" [ref=f16e33]
+        - generic [ref=f16e34]: Everyday objects.Extraordinary character.
+    - generic "Manufacturing background" [ref=f16e35]:
+      - paragraph [ref=f16e36]:
+        - strong [ref=f16e37]: "1993"
+        - generic [ref=f16e38]: Manufacturing roots
+      - paragraph [ref=f16e39]:
+        - strong [ref=f16e40]: Quanzhou
+        - generic [ref=f16e41]: Fujian, China
+      - paragraph [ref=f16e42]:
+        - strong [ref=f16e43]: Idea to shipment
+        - generic [ref=f16e44]: Development · production · export
+    - navigation "Page sections" [ref=f16e45]:
+      - link "01 / Our services" [ref=f16e46] [cursor=pointer]:
+        - /url: "#services"
+      - link "02 / Product categories" [ref=f16e47] [cursor=pointer]:
+        - /url: "#edit"
+      - link "03 / Selection approach" [ref=f16e48] [cursor=pointer]:
+        - /url: "#thinking"
+      - link "04 / Manufacturing" [ref=f16e49] [cursor=pointer]:
+        - /url: "#manufacturing"
+      - link "05 / Working process" [ref=f16e50] [cursor=pointer]:
+        - /url: "#process"
+    - generic [ref=f16e51]:
+      - generic [ref=f16e52]:
+        - paragraph [ref=f16e53]: 01 / What we do
+        - heading "One product partner. Three connected outputs." [level=2] [ref=f16e54]: One product partner.Three connected outputs.
+        - paragraph [ref=f16e55]: For buyers, retailers, importers, brands and creators building a physical product range.
+      - generic [ref=f16e56]:
+        - article [ref=f16e57]:
+          - generic [ref=f16e59]: Discover
+          - heading "Find the direction" [level=3] [ref=f16e60]
+          - paragraph [ref=f16e61]: Match customer, category and price.
+          - strong [ref=f16e62]: Commercial shortlist
+        - article [ref=f16e63]:
+          - generic [ref=f16e65]: Develop
+          - heading "Make it workable" [level=3] [ref=f16e66]
+          - paragraph [ref=f16e67]: Refine form, material and finish.
+          - strong [ref=f16e68]: Approved sample
+        - article [ref=f16e69]:
+          - generic [ref=f16e71]: Deliver
+          - heading "Prepare the order" [level=3] [ref=f16e72]
+          - paragraph [ref=f16e73]: Coordinate production and export.
+          - strong [ref=f16e74]: Shipment plan
+      - generic "Who we work with" [ref=f16e75]:
+        - generic [ref=f16e76]: Retail buyers
+        - generic [ref=f16e77]: Importers
+        - generic [ref=f16e78]: Brands
+        - generic [ref=f16e79]: Creators
+        - generic [ref=f16e80]: Manufacturing clients
+    - generic [ref=f16e81]:
+      - generic [ref=f16e83]:
+        - paragraph [ref=f16e84]: Selected Brand Experience
+        - heading "Selected licensed IP and retail experience." [level=2] [ref=f16e85]
+        - paragraph [ref=f16e86]: Resin and ceramic collectibles, figurines and decorative merchandise produced through trading and licensee partners.
+      - list "Selected brand and IP experience" [ref=f16e89]:
+        - img "Primark" [ref=f16e91]
+        - img "TK Maxx" [ref=f16e93]
+        - img "Walmart" [ref=f16e95]
+        - img "How to Train Your Dragon" [ref=f16e97]
+        - img "Star Wars" [ref=f16e99]
+        - img "Transformers" [ref=f16e101]
+        - img "Harry Potter" [ref=f16e103]
+        - img "Alice in Wonderland" [ref=f16e105]
+        - img "Minions" [ref=f16e107]
+        - img "Marvel" [ref=f16e109]
+        - img "Target" [ref=f16e111]
+        - img "Spider-Man" [ref=f16e113]
+        - img "Disney" [ref=f16e115]
+        - img "Blizzard Entertainment" [ref=f16e117]
+        - img "SpongeBob SquarePants" [ref=f16e119]
+        - img "Pokémon" [ref=f16e121]
+        - img "Peanuts" [ref=f16e123]
+        - img "Zara" [ref=f16e125]
+        - img "Dungeons & Dragons" [ref=f16e127]
+        - img "Universal" [ref=f16e129]
+        - img "Paw Patrol" [ref=f16e131]
+        - img "Superman" [ref=f16e133]
+        - img "Hasbro" [ref=f16e135]
+        - img "Warner Bros." [ref=f16e137]
+        - img "League of Legends" [ref=f16e139]
+        - img "Angry Birds" [ref=f16e141]
+        - img "DC" [ref=f16e143]
+        - img "Paramount" [ref=f16e145]
+        - img "Toy Story" [ref=f16e147]
+      - generic [ref=f16e178]:
+        - link "View Manufacturing Experience →" [ref=f16e179] [cursor=pointer]:
+          - /url: manufacturing.html#experience
+        - button "Pause logo motion" [ref=f16e180] [cursor=pointer]
+    - generic [ref=f16e182]:
+      - generic [ref=f16e183]:
+        - paragraph [ref=f16e184]: 02 / Product capabilities
+        - heading "Growth categories, established essentials and specialist product niches." [level=2] [ref=f16e185]: Growth categories, established essentialsand specialist product niches.
+        - paragraph [ref=f16e186]: Develop original home and lifestyle ranges across eight focused product directions.
+      - generic [ref=f16e187]:
+        - article [ref=f16e188]:
+          - img "Home décor and collectible ceramic products" [ref=f16e189]
+          - generic [ref=f16e190]:
+            - text: Décor · Collectibles
+            - heading "Home décor & collectibles" [level=3] [ref=f16e191]
+            - paragraph [ref=f16e192]: Decorative objects, figurines, vases and desktop accents.
+            - text: Ceramic · Resin · Metal
+        - article [ref=f16e193]:
+          - img "Coordinated ceramic kitchen and tabletop collection" [ref=f16e194]
+          - generic [ref=f16e195]:
+            - text: Kitchen · Entertaining
+            - heading "Kitchen & tabletop" [level=3] [ref=f16e196]
+            - paragraph [ref=f16e197]: Serveware, organisers, cake stands and tabletop accessories.
+            - text: Ceramic · Wood · Metal
+        - article [ref=f16e198]:
+          - img "Decorative ceramic lighting and ambience accessories" [ref=f16e199]
+          - generic [ref=f16e200]:
+            - heading "Lighting & ambience" [level=3] [ref=f16e201]
+            - text: Lamps · Candleholders · Scent
+        - article [ref=f16e202]:
+          - img "Sculptural mirrors, wall relief and decorative hooks" [ref=f16e203]
+          - generic [ref=f16e204]:
+            - heading "Wall décor & mirrors" [level=3] [ref=f16e205]
+            - text: Mirrors · Reliefs · Hooks
+        - article [ref=f16e206]:
+          - img "Shell-inspired bathroom and jewellery organisers" [ref=f16e207]
+          - generic [ref=f16e208]:
+            - heading "Bath & organisation" [level=3] [ref=f16e209]
+            - text: Storage · Dispensers · Trays
+        - article [ref=f16e210]:
+          - img "Decorative garden planters and outdoor accessories" [ref=f16e211]
+          - generic [ref=f16e212]:
+            - heading "Garden & planters" [level=3] [ref=f16e213]
+            - text: Planters · Stands · Ornaments
+      - generic [ref=f16e214]:
+        - link "Explore all product capabilities ↗" [ref=f16e215] [cursor=pointer]:
+          - /url: products.html
+        - paragraph [ref=f16e216]: Plus aquarium & reptile décor and seasonal gifting.
+    - generic [ref=f16e217]:
+      - figure "Illustrative selection and feasibility review." [ref=f16e218]:
+        - img "Illustrative buyer and product developer reviewing prototypes, materials and product data" [ref=f16e219]
+      - generic [ref=f16e221]:
+        - paragraph [ref=f16e222]: 03 / Selection approach
+        - heading "Three views. One clearer choice." [level=2] [ref=f16e223]: Three views.One clearer choice.
+        - paragraph [ref=f16e224]: We bring market evidence, manufacturing judgement and buyer requirements into the same product decision.
+        - list [ref=f16e225]:
+          - listitem [ref=f16e226]:
+            - generic [ref=f16e227]: 01 / Market
+            - heading "Is there demand?" [level=3] [ref=f16e228]
+            - paragraph [ref=f16e229]: Compare audience, assortment and price.
+          - listitem [ref=f16e230]:
+            - generic [ref=f16e231]: 02 / Factory
+            - heading "Can it be made well?" [level=3] [ref=f16e232]
+            - paragraph [ref=f16e233]: Review material, construction and finish.
+          - listitem [ref=f16e234]:
+            - generic [ref=f16e235]: 03 / Buyer
+            - heading "Does it fit the brief?" [level=3] [ref=f16e236]
+            - paragraph [ref=f16e237]: Balance customer, quantity and timing.
+    - generic [ref=f16e239]:
+      - figure "Illustrative product development scene." [ref=f16e240]:
+        - img "Illustrative ceramic concept development and sample measurement" [ref=f16e241]
+      - generic [ref=f16e243]:
+        - paragraph [ref=f16e244]: From reference to sample
+        - heading "From your reference to a workable sample." [level=2] [ref=f16e245]: From your referenceto a workable sample.
+        - paragraph [ref=f16e246]: Bring a sketch, reference image or first product idea. We explore what can be made, how it should feel and what it will cost before production.
+        - list [ref=f16e247]:
+          - listitem [ref=f16e248]:
+            - strong [ref=f16e249]: Design & materials
+            - generic [ref=f16e250]: Shape, function, 3D / CAD, material and finish.
+          - listitem [ref=f16e251]:
+            - strong [ref=f16e252]: Sampling & refinement
+            - generic [ref=f16e253]: Prototype review, practical checks and revisions.
+          - listitem [ref=f16e254]:
+            - strong [ref=f16e255]: Production planning
+            - generic [ref=f16e256]: Quotation, tooling, quantity, packaging and timing.
+        - link "See the working process ↗" [ref=f16e257] [cursor=pointer]:
+          - /url: "#process"
+    - generic [ref=f16e258]:
+      - generic [ref=f16e259]:
+        - paragraph [ref=f16e260]: 04 / Manufacturing roots
+        - heading "Factory knowledge. Built into each decision." [level=2] [ref=f16e261]: Factory knowledge.Built into each decision.
+        - paragraph [ref=f16e262]: Manufacturing roots in Quanzhou since 1993, with resin and ceramic craft expertise.
+      - generic [ref=f16e263]:
+        - article [ref=f16e264]:
+          - figure [ref=f16e265]:
+            - img "Illustrative hand finishing of a decorative object" [ref=f16e266]
+          - generic [ref=f16e267]:
+            - generic [ref=f16e268]: 01 / Craft
+            - heading "Material & finish" [level=3] [ref=f16e269]
+            - paragraph [ref=f16e270]: Plan the process around the intended form and surface.
+            - generic [ref=f16e271]: Resin · Ceramic · Mixed materials
+        - article [ref=f16e272]:
+          - figure [ref=f16e273]:
+            - img "Illustrative product quality check against specification" [ref=f16e274]
+          - generic [ref=f16e275]:
+            - generic [ref=f16e276]: 02 / Control
+            - heading "Sample & quality" [level=3] [ref=f16e277]
+            - paragraph [ref=f16e278]: Approve the reference and define the checks.
+            - generic [ref=f16e279]: Dimensions · Colour · Finish
+        - article [ref=f16e280]:
+          - figure [ref=f16e281]:
+            - img "Illustrative protective packaging for export" [ref=f16e282]
+          - generic [ref=f16e283]:
+            - generic [ref=f16e284]: 03 / Delivery
+            - heading "Packaging & export" [level=3] [ref=f16e285]
+            - paragraph [ref=f16e286]: Prepare protection, labelling and shipment details.
+            - generic [ref=f16e287]: Private label · Export preparation
+      - paragraph [ref=f16e288]: Illustrative manufacturing scenes. Actual routes vary by product.
+      - paragraph [ref=f16e289]: Quangang Craft Co., Ltd. is an affiliated manufacturing facility established in 1993 and a separate legal entity from Able Trading Co., Ltd.
+      - link "Explore factory capabilities & history ↗" [ref=f16e290] [cursor=pointer]:
+        - /url: manufacturing.html
+    - region [ref=f16e291]:
+      - generic [ref=f16e292]:
+        - generic [ref=f16e293]:
+          - paragraph [ref=f16e294]: Choose your starting point
+          - heading "First product or larger retail range?" [level=3] [ref=f16e295]
+          - paragraph [ref=f16e296]: Share what you know today. We will identify the next practical decision.
+          - link "Discuss your manufacturing brief ↗" [ref=f16e297] [cursor=pointer]:
+            - /url: "#brief"
+        - article [ref=f16e298]:
+          - text: 01 / First product
+          - heading "Start with the idea." [level=4] [ref=f16e299]
+          - list [ref=f16e300]:
+            - listitem [ref=f16e301]: + Reference or early concept
+            - listitem [ref=f16e302]: + Budget and target price
+            - listitem [ref=f16e303]: + Proposed quantity
+            - listitem [ref=f16e304]: + Sampling expectations
+        - article [ref=f16e305]:
+          - text: 02 / Larger retail range
+          - heading "Start with the programme." [level=4] [ref=f16e306]
+          - list [ref=f16e307]:
+            - listitem [ref=f16e308]: + Price band and assortment
+            - listitem [ref=f16e309]: + Packaging standards
+            - listitem [ref=f16e310]: + Compliance requirements
+            - listitem [ref=f16e311]: + Delivery window
+    - generic [ref=f16e312]:
+      - generic [ref=f16e313]:
+        - paragraph [ref=f16e314]: 05 / How we work together
+        - heading "From your brief to shipment" [level=2] [ref=f16e315]
+        - paragraph [ref=f16e316]: A clear sequence, with a decision and an output at each stage.
+      - list [ref=f16e317]:
+        - listitem [ref=f16e318]:
+          - generic [ref=f16e319]: "01"
+          - generic [ref=f16e322]:
+            - heading "Share your brief" [level=3] [ref=f16e323]
+            - paragraph [ref=f16e324]: Tell us your market, customer, category and target price.
+            - generic [ref=f16e325]:
+              - generic [ref=f16e326]: Output
+              - strong [ref=f16e327]: Agreed requirements
+        - listitem [ref=f16e328]:
+          - generic [ref=f16e329]: "02"
+          - generic [ref=f16e332]:
+            - heading "Review the shortlist" [level=3] [ref=f16e333]
+            - paragraph [ref=f16e334]: Compare product options and the reasons behind each recommendation.
+            - generic [ref=f16e335]:
+              - generic [ref=f16e336]: Decision
+              - strong [ref=f16e337]: Selected product direction
+        - listitem [ref=f16e338]:
+          - generic [ref=f16e339]: "03"
+          - generic [ref=f16e342]:
+            - heading "Develop & sample" [level=3] [ref=f16e343]
+            - paragraph [ref=f16e344]: Refine the design, review samples and confirm costs.
+            - generic [ref=f16e345]:
+              - generic [ref=f16e346]: Approval
+              - strong [ref=f16e347]: Approved sample & specification
+        - listitem [ref=f16e348]:
+          - generic [ref=f16e349]: "04"
+          - generic [ref=f16e352]:
+            - heading "Produce & deliver" [level=3] [ref=f16e353]
+            - paragraph [ref=f16e354]: Coordinate production, agreed quality checks, packaging and export preparation.
+            - generic [ref=f16e355]:
+              - generic [ref=f16e356]: Plan
+              - strong [ref=f16e357]: Production and shipment plan
+    - generic [ref=f16e359]:
+      - generic [ref=f16e360]:
+        - paragraph [ref=f16e361]: Able’s technology subsidiary / Commerce AI
+        - heading "Manufacturing roots. Software that adds value." [level=2] [ref=f16e362]: Manufacturing roots.Software that adds value.
+        - paragraph [ref=f16e363]: "Wayfound is Able’s technology subsidiary. It builds custom AI software around the products and operations we understand: development, factory workflows and commerce."
+        - paragraph [ref=f16e364]: Use these capabilities alongside a product project, or discuss a separate software engagement.
+        - link "Explore Commerce AI ↗" [ref=f16e365] [cursor=pointer]:
+          - /url: commerce-ai.html
+      - generic [ref=f16e366]:
+        - article [ref=f16e367]:
+          - text: 01 / Factory & trade automation
+          - heading "Cut repeated paperwork." [level=3] [ref=f16e368]
+          - generic [ref=f16e369]:
+            - generic [ref=f16e370]:
+              - strong [ref=f16e371]: 65%
+              - generic [ref=f16e372]: Less manual data entry
+            - generic [ref=f16e373]:
+              - strong [ref=f16e374]: 70%
+              - generic [ref=f16e375]: Faster file processing
+          - paragraph [ref=f16e376]: Translate supplier files, extract specifications and connect records to reporting and ERP.
+          - paragraph [ref=f16e377]: Illustrative KPI scenario
+        - article [ref=f16e378]:
+          - text: 02 / Marketplace operations
+          - heading "Coordinate a larger commerce operation." [level=3] [ref=f16e379]
+          - generic [ref=f16e380]:
+            - generic [ref=f16e381]:
+              - strong [ref=f16e382]: "150"
+              - generic [ref=f16e383]: Coordinated agents
+            - generic [ref=f16e384]:
+              - strong [ref=f16e385]: $30M
+              - generic [ref=f16e386]: Operator turnover
+          - paragraph [ref=f16e387]: Connected research, listings, advertising, inventory and reporting workflows.
+          - paragraph [ref=f16e388]: Provided business scale. Turnover is business context; incremental revenue from AI is not measured here.
+    - generic [ref=f16e389]:
+      - generic [ref=f16e390]:
+        - paragraph [ref=f16e391]: Start your project
+        - heading "Tell us what you’re looking for." [level=2] [ref=f16e392]: Tell us whatyou’re looking for.
+        - paragraph [ref=f16e393]: Share the product, market and quantity you have in mind. We will identify the next practical decision.
+      - generic [ref=f16e394]:
+        - generic [ref=f16e395]:
+          - generic [ref=f16e396]:
+            - text: Your name
+            - textbox "Your name" [ref=f16e397]
+          - generic [ref=f16e398]:
+            - text: Company / brand
+            - textbox "Company / brand" [ref=f16e399]:
+              - /placeholder: Optional for a first launch
+        - generic [ref=f16e400]:
+          - text: Work email
+          - textbox "Work email" [ref=f16e401]
+        - generic [ref=f16e402]:
+          - generic [ref=f16e403]:
+            - text: Target market
+            - textbox "Target market" [ref=f16e404]:
+              - /placeholder: e.g. United States
+          - generic [ref=f16e405]:
+            - text: Product direction
+            - combobox "Product direction" [ref=f16e406]:
+              - option "Help me explore" [selected]
+              - option "Home décor & collectibles"
+              - option "Kitchen & tabletop"
+              - option "Lighting & ambience"
+              - option "Wall décor & mirrors"
+              - option "Bath & organisation"
+              - option "Garden & planters"
+              - option "Aquarium & reptile"
+              - option "Seasonal & gifting"
+              - option "Another direction"
+        - generic [ref=f16e407]:
+          - generic [ref=f16e408]:
+            - text: You are
+            - combobox "You are" [ref=f16e409]:
+              - option "Professional buyer / retailer" [selected]
+              - option "Supermarket / retail chain"
+              - option "Importer / distributor"
+              - option "Brand / commissioning client"
+              - option "Creator / first product launch"
+              - option "Another business"
+          - generic [ref=f16e410]:
+            - text: Approximate quantity
+            - textbox "Approximate quantity" [ref=f16e411]:
+              - /placeholder: e.g. 500 units, or not decided
+        - generic [ref=f16e412]:
+          - text: What are you looking to develop?
+          - textbox "What are you looking to develop?" [ref=f16e413]:
+            - /placeholder: Your reference or idea, customer, target price, packaging and launch timing
+        - button "Prepare my brief ↗" [ref=f16e414] [cursor=pointer]
+        - paragraph [ref=f16e415]: Local design preview. Download your brief to review; nothing is submitted.
+        - status
+  - contentinfo [ref=f16e416]:
+    - link "ABLE TRADING" [ref=f16e417] [cursor=pointer]:
+      - /url: "#top"
+      - text: ABLE
+      - generic [ref=f16e418]: TRADING
+    - paragraph [ref=f16e419]: Product opportunity. Manufacturing knowledge.
+    - link "Commerce AI ↗" [ref=f16e420] [cursor=pointer]:
+      - /url: commerce-ai.html
+    - link "Back to top" [ref=f16e421] [cursor=pointer]:
+      - /url: "#top"
+  - button "Ask Able ↗" [ref=f16e422] [cursor=pointer]
