@@ -88,3 +88,8 @@
   min-height:0!important;
   aspect-ratio:5/3;
 }
+
+/* Homepage category layout: two long cards per row. */
+.home-polish .home-bento{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
