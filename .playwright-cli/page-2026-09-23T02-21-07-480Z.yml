@@ -1,0 +1,256 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - link "Able Trading home" [ref=e3] [cursor=pointer]:
+      - /url: index.html
+      - text: ABLE
+    - button "Close menu" [expanded] [active] [ref=e245] [cursor=pointer]
+    - navigation "Main navigation" [ref=e5]:
+      - link "Home" [ref=e6] [cursor=pointer]:
+        - /url: index.html
+      - link "Products" [ref=e7] [cursor=pointer]:
+        - /url: products.html
+      - link "Manufacturing" [ref=e8] [cursor=pointer]:
+        - /url: manufacturing.html
+      - link "Commerce AI ↗" [ref=e9] [cursor=pointer]:
+        - /url: commerce-ai.html
+    - link "Start a product brief ↗" [ref=e10] [cursor=pointer]:
+      - /url: index.html#brief
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - link "Home" [ref=e13] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=e14]: /
+      - generic [ref=e15]: Product capabilities
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - paragraph [ref=e18]: Product categories & materials
+        - heading "Décor. Gifts. Everyday character." [level=1] [ref=e19]: Décor. Gifts.Everyday character.
+        - paragraph [ref=e20]: Explore product directions, materials and custom development possibilities for retail-ready ranges.
+        - generic [ref=e21]:
+          - link "Browse categories ↗" [ref=e22] [cursor=pointer]:
+            - /url: "#collections"
+          - link "Start with a reference" [ref=e23] [cursor=pointer]:
+            - /url: index.html#brief
+        - generic "Development capabilities" [ref=e24]:
+          - generic [ref=e25]: Custom development
+          - generic [ref=e26]: OEM / ODM
+          - generic [ref=e27]: Private label
+      - generic "Selected product directions" [ref=e28]:
+        - figure "Home décor & collectibles" [ref=e29]:
+          - img "Space-themed ceramic home and desktop décor collection" [ref=e30]
+        - figure "Seasonal & gifting" [ref=e32]:
+          - img "Floral ceramic giftware and serving accessories" [ref=e33]
+        - figure "Habitat décor" [ref=e35]:
+          - img "Aquarium and reptile habitat decorations" [ref=e36]
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - paragraph [ref=e41]: 01 / Explore by use
+        - heading "Eight product directions." [level=2] [ref=e42]
+        - paragraph [ref=e43]: Growth categories, established essentials and specialist product niches.
+      - group "Filter categories by material" [ref=e44]:
+        - button "All 8" [pressed] [ref=e45] [cursor=pointer]
+        - button "Ceramic" [ref=e46] [cursor=pointer]
+        - button "Resin" [ref=e47] [cursor=pointer]
+        - button "Wood" [ref=e48] [cursor=pointer]
+        - button "Textile" [ref=e49] [cursor=pointer]
+        - button "Metal" [ref=e50] [cursor=pointer]
+        - status [ref=e51]: 8 product categories
+      - generic [ref=e52]:
+        - article [ref=e53] [cursor=pointer]:
+          - link [ref=e54]:
+            - /url: "#direction"
+            - img "Home décor and collectible ceramic products" [ref=e56]
+            - generic [ref=e57]:
+              - heading "Home décor & collectibles" [level=3] [ref=e58]
+              - paragraph [ref=e59]: Decorative objects · figurines · vases
+              - generic [aria-hidden] [ref=e60]: ↗
+        - article [ref=e61] [cursor=pointer]:
+          - link [ref=e62]:
+            - /url: "#direction"
+            - img "Coordinated ceramic kitchen and tabletop collection" [ref=e64]
+            - generic [ref=e65]:
+              - heading "Kitchen & tabletop" [level=3] [ref=e66]
+              - paragraph [ref=e67]: Serveware · cake stands · accessories
+              - generic [aria-hidden] [ref=e68]: ↗
+        - article [ref=e69] [cursor=pointer]:
+          - link [ref=e70]:
+            - /url: "#direction"
+            - img "Decorative ceramic lamp and ambience accessories" [ref=e72]
+            - generic [ref=e73]:
+              - heading "Lighting & ambience" [level=3] [ref=e74]
+              - paragraph [ref=e75]: Lamps · candleholders · scent
+              - generic [aria-hidden] [ref=e76]: ↗
+        - article [ref=e77] [cursor=pointer]:
+          - link [ref=e78]:
+            - /url: "#direction"
+            - img "Sculptural wall mirrors, relief panel and hooks" [ref=e80]
+            - generic [ref=e81]:
+              - heading "Wall décor & mirrors" [level=3] [ref=e82]
+              - paragraph [ref=e83]: Mirrors · reliefs · hooks
+              - generic [aria-hidden] [ref=e84]: ↗
+        - article [ref=e85] [cursor=pointer]:
+          - link [ref=e86]:
+            - /url: "#direction"
+            - img "Shell-inspired bathroom and jewellery organisers" [ref=e88]
+            - generic [ref=e89]:
+              - heading "Bath & organisation" [level=3] [ref=e90]
+              - paragraph [ref=e91]: Storage · dispensers · trays
+              - generic [aria-hidden] [ref=e92]: ↗
+        - article [ref=e93] [cursor=pointer]:
+          - link [ref=e94]:
+            - /url: "#direction"
+            - img "Decorative planters and outdoor garden accessories" [ref=e96]
+            - generic [ref=e97]:
+              - heading "Garden & planters" [level=3] [ref=e98]
+              - paragraph [ref=e99]: Planters · stands · ornaments
+              - generic [aria-hidden] [ref=e100]: ↗
+        - article [ref=e101] [cursor=pointer]:
+          - link [ref=e102]:
+            - /url: "#direction"
+            - img "Resin aquarium ornaments and reptile terrarium hides" [ref=e104]
+            - generic [ref=e105]:
+              - heading "Aquarium & reptile" [level=3] [ref=e106]
+              - paragraph [ref=e107]: Hides · caves · ornaments
+              - generic [aria-hidden] [ref=e108]: ↗
+        - article [ref=e109] [cursor=pointer]:
+          - link [ref=e110]:
+            - /url: "#direction"
+            - img "Floral ceramic giftware and seasonal collectible range" [ref=e112]
+            - generic [ref=e113]:
+              - heading "Seasonal & gifting" [level=3] [ref=e114]
+              - paragraph [ref=e115]: Giftware · collections · sets
+              - generic [aria-hidden] [ref=e116]: ↗
+      - paragraph [ref=e117]: Capabilities, not live stock. Original ranges and commercial details are discussed privately.
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - paragraph [ref=e120]: 02 / Build a direction
+        - heading "Home décor & collectibles" [level=2] [ref=e121]
+        - paragraph [ref=e122]: Choose a category and shape the product around three commercial decisions.
+      - generic [ref=e123]:
+        - figure "Illustrative product direction" [ref=e124]:
+          - img "Coordinated sculptural home décor collection with mirror, tabletop accessories and storage" [ref=e125]
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - text: Product direction
+            - combobox "Product direction" [ref=e129]:
+              - option "Home décor & collectibles" [selected]
+              - option "Kitchen & tabletop"
+              - option "Lighting & ambience"
+              - option "Wall décor & mirrors"
+              - option "Bath & organisation"
+              - option "Garden & planters"
+              - option "Aquarium & reptile"
+              - option "Seasonal & gifting"
+          - generic "Available materials" [ref=e130]:
+            - generic [ref=e131]: Ceramic
+            - generic [ref=e132]: Resin
+            - generic [ref=e133]: Wood
+            - generic [ref=e134]: Iron & metal
+          - generic [ref=e135]:
+            - article [ref=e136]:
+              - generic [ref=e137]: "01"
+              - heading "Form & function" [level=3] [ref=e138]
+              - paragraph [ref=e139]: Shape, scale and intended use.
+            - article [ref=e140]:
+              - generic [ref=e141]: "02"
+              - heading "Colour & finish" [level=3] [ref=e142]
+              - paragraph [ref=e143]: Palette, texture and surface detail.
+            - article [ref=e144]:
+              - generic [ref=e145]: "03"
+              - heading "Packaging & range" [level=3] [ref=e146]
+              - paragraph [ref=e147]: Protection, branding and assortment.
+          - generic [ref=e148]:
+            - strong [ref=e149]: Useful for your brief
+            - generic [ref=e150]: Reference
+            - generic [ref=e151]: Quantity
+            - generic [ref=e152]: Target price
+            - generic [ref=e153]: Dimensions / finish
+            - generic [ref=e154]: Packaging
+            - generic [ref=e155]: Timing
+          - link "Start a home décor brief ↗" [ref=e156] [cursor=pointer]:
+            - /url: index.html?category=home#brief
+          - paragraph [ref=e157]: MOQ, sampling and testing depend on product, process and destination.
+    - generic [ref=e159]:
+      - generic [ref=e160]:
+        - paragraph [ref=e161]: 03 / Materials & processes
+        - heading "Material shapes the outcome." [level=2] [ref=e162]
+        - paragraph [ref=e163]: Choose the process around form, finish, use and target price.
+      - generic [ref=e164]:
+        - article [ref=e165]:
+          - img "Ceramic forms showing matte, glazed and hand-detailed finishes" [ref=e166]
+          - heading "Ceramic" [level=3] [ref=e167]
+          - generic [ref=e168]:
+            - generic [ref=e169]: Forming
+            - generic [ref=e170]: Glazing
+            - generic [ref=e171]: Hand detail
+          - paragraph [ref=e172]: Refined forms with tactile glaze and surface variation.
+        - article [ref=e173]:
+          - img "Detailed sculpted resin decorative figurine" [ref=e174]
+          - heading "Resin" [level=3] [ref=e175]
+          - generic [ref=e176]:
+            - generic [ref=e177]: Sculpting
+            - generic [ref=e178]: Moulding
+            - generic [ref=e179]: Painting
+          - paragraph [ref=e180]: Detailed sculptural products with controlled repeatability.
+        - article [ref=e181]:
+          - img "Wooden home accessory showing stained grain and joined construction" [ref=e182]
+          - heading "Wood" [level=3] [ref=e183]
+          - generic [ref=e184]:
+            - generic [ref=e185]: Cutting
+            - generic [ref=e186]: Assembly
+            - generic [ref=e187]: Staining
+          - paragraph [ref=e188]: Warm structure, visible grain and precise construction.
+        - article [ref=e189]:
+          - img "Woven textile accessory with piping and stitched seams" [ref=e190]
+          - heading "Textile" [level=3] [ref=e191]
+          - generic [ref=e192]:
+            - generic [ref=e193]: Selection
+            - generic [ref=e194]: Sewing
+            - generic [ref=e195]: Soft finish
+          - paragraph [ref=e196]: Soft goods shaped through weave, seam and structure.
+        - article [ref=e197]:
+          - img "Powder-coated formed metal home accessory with welded join" [ref=e198]
+          - heading "Iron & metal" [level=3] [ref=e199]
+          - generic [ref=e200]:
+            - generic [ref=e201]: Forming
+            - generic [ref=e202]: Welding
+            - generic [ref=e203]: Coating
+          - paragraph [ref=e204]: Durable structures with clean joins and protective finish.
+      - paragraph [ref=e205]: Illustrative material and product-direction imagery.
+    - generic [ref=e207]:
+      - generic [ref=e208]:
+        - paragraph [ref=e209]: 04 / Custom · OEM · ODM · private label
+        - heading "One reference. A range made for you." [level=2] [ref=e210]: One reference.A range made for you.
+        - paragraph [ref=e211]: Adapt form, material, colour, finish and packaging around your audience and retail channel.
+        - generic "Product development stages" [ref=e212]:
+          - generic [ref=e213]: Reference
+          - generic [ref=e214]: →
+          - generic [ref=e215]: Concept / 3D
+          - generic [ref=e216]: →
+          - generic [ref=e217]: Prototype
+          - generic [ref=e218]: →
+          - generic [ref=e219]: Approved sample
+          - generic [ref=e220]: →
+          - generic [ref=e221]: Production preparation
+        - generic [ref=e222]:
+          - link "Prepare a product brief ↗" [ref=e223] [cursor=pointer]:
+            - /url: index.html#brief
+          - link "See manufacturing approach" [ref=e224] [cursor=pointer]:
+            - /url: manufacturing.html
+      - figure "Shape Material Colour Finish Packaging" [ref=e225]:
+        - img "Coordinated ceramic collection illustrating custom product range development" [ref=e226]
+        - generic [ref=e227]:
+          - generic [ref=e228]: Shape
+          - generic [ref=e229]: Material
+          - generic [ref=e230]: Colour
+          - generic [ref=e231]: Finish
+          - generic [ref=e232]: Packaging
+  - contentinfo [ref=e233]:
+    - link "ABLE" [ref=e244] [cursor=pointer]:
+      - /url: index.html
+    - paragraph [ref=e236]: Product opportunity. Manufacturing knowledge.
+    - link "Commerce AI ↗" [ref=e237] [cursor=pointer]:
+      - /url: commerce-ai.html
+    - link "Back to top" [ref=e238] [cursor=pointer]:
+      - /url: "#top"
+  - button "Ask Able ↗" [ref=e239] [cursor=pointer]
