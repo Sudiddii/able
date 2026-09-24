@@ -21,7 +21,6 @@
     const payload = {
       _subject: subject,
       _template: 'table',
-      _captcha: 'false',
       _replyto: fields.email || '',
       enquiry_stream: stream,
       ...fields,
