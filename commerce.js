@@ -84,10 +84,13 @@ function chooseWorkflow(topic,description) {
 }
 document.querySelectorAll('[data-workflow]').forEach(button=>button.addEventListener('click',()=>chooseWorkflow(button.dataset.workflow)));
 document.getElementById('use-workflow').addEventListener('click',()=>{business.value=operation.value;chooseWorkflow(picker.value,DIAGNOSTICS[picker.value].today);});
-form.addEventListener('submit',event=>{
+form.addEventListener('submit',async event=>{
   event.preventDefault();if(!form.reportValidity())return;
-  const data = new FormData(form);
-  const text = ['WAYFOUND / COMMERCE AI WORKFLOW BRIEF','',...Array.from(data.entries()).map(([key,value])=>`${key.toUpperCase()}: ${value}`),'','Prepared locally. This brief has not been sent to Wayfound.'].join('\n');
-  const url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='wayfound-workflow-brief.txt';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
-  document.getElementById('workflow-status').textContent='Your workflow brief is ready for download. It has not been sent to Wayfound.';
+  const button=form.querySelector('[type="submit"]'),status=document.getElementById('workflow-status');
+  status.textContent='';AbleEnquiry.setPending(button,true);
+  try{
+    const result=await AbleEnquiry.send({form,stream:'TECH',subject:'[ABLE TECH] New Commerce AI enquiry',extra:{enquiry_type:'Commerce AI / software development'}});
+    if(!result.discarded){status.textContent='Thank you. Your Commerce AI enquiry has been sent to Wayfound.';form.reset();try{localStorage.removeItem(draftKey)}catch{}}
+  }catch(error){status.textContent='We could not send your enquiry. Please check your connection and try again.';console.error('Wayfound tech enquiry failed:',error)}
+  finally{AbleEnquiry.setPending(button,false)}
 });
