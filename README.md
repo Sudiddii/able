@@ -24,7 +24,7 @@ The public forms send enquiries to the approved Able inbox through FormSubmit's 
 - The floating Ask Able form routes by the selected topic. It defaults to `TECH` on the Commerce AI page and `TRADE` elsewhere.
 - Every message includes the source path and URL, submission time, UTM attribution and all visitor-supplied fields.
 - The first submission triggers a FormSubmit activation email to the destination inbox. Delivery must be confirmed once from that email.
-- FormSubmit states that submissions may be retained for 30 days. The website discloses this in `privacy.html` and links that notice from each enquiry flow.
+- Submission retention follows the form and email providers' policies. The website discloses this in `privacy.html` and links that notice from each enquiry flow.
 
 If a first-party API or CRM replaces FormSubmit, keep the same `TRADE` / `TECH` routing fields and move the destination and credentials into server-side environment variables.
 
@@ -33,3 +33,7 @@ The macOS GitHub auto-sync LaunchAgent may be unloaded during local review so ch
 ## Public contact details
 
 The shared footer and privacy page use the owner-provided contact details: `didisu0322@gmail.com`, Quanzhou / Fujian / P.C. 362000, main `+86 595 22659901`, direct `+86 595 22659909`, mobile `+86 13906098996`, and fax `+86 595 22659910`.
+
+## SEO and analytics
+
+Technical SEO, structured data, attribution, consent behavior, and the event dictionary are documented in `SEO-ANALYTICS.md`. Analytics IDs and Search Console verification are intentionally unconfigured until real values are supplied.
