@@ -29,6 +29,11 @@ button.work-image{display:block;width:100%;padding:0;font:inherit;text-align:lef
 
 /* Verified contact details and form privacy notices. */
 .site-footer{grid-template-columns:minmax(230px,1.2fr) minmax(230px,.9fr) minmax(250px,1fr)}.site-footer .footer-contact{display:grid;gap:8px;font-style:normal}.site-footer .footer-contact strong{font-size:13px;text-transform:uppercase;letter-spacing:.08em}.site-footer .footer-contact a,.site-footer .footer-contact span{font-size:13px;line-height:1.4;text-decoration:none;color:var(--muted)}.site-footer .footer-contact a:hover{color:var(--blue)}.site-footer .footer-meta{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:20px;padding-top:20px;border-top:1px solid var(--line);text-align:left}.site-footer .footer-meta p,.site-footer .footer-meta a{margin:0}.form-note a,.ask-privacy a{color:inherit;text-decoration:underline;text-underline-offset:2px}.commerce-page .site-footer .footer-meta{border-color:#28364d}
+
+/* Performance and trust polish. */
+.kpi-provenance{display:inline-flex;align-items:center;max-width:100%;padding:6px 9px;border:1px solid #cad3e3;border-radius:999px;background:#f5f7fb;color:#4d5b70!important;font-size:11px!important;line-height:1.35!important}
+.commerce-page .kpi-provenance{border-color:#33445d;background:#101c2e;color:#b9c8dd!important}
+@media(min-width:768px){.manufacturing-page .ask-able-launcher{right:18px;bottom:18px;padding:12px 18px;font-size:14px}}
 @media(max-width:900px){.site-footer{grid-template-columns:1fr 1fr}.site-footer .footer-contact{grid-column:2}.site-footer .footer-meta{grid-column:1/-1}}
 @media(max-width:767px){.site-footer{grid-template-columns:1fr}.site-footer .footer-contact,.site-footer .footer-meta{grid-column:auto}.site-footer .footer-meta{display:flex}.site-footer .footer-meta a{margin-top:0}}
 
