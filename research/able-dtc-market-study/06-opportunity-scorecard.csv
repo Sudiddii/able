@@ -1,0 +1,31 @@
+category,opportunity,demand_20,gap_15,able_fit_15,margin_15,shipping_ease_10,compliance_ease_10,content_10,extension_5,weighted_score_5,evidence,risk,recommendation
+reptile,Removable-lid leopard gecko humid hide,5,5,5,4,4,4,5,5,4.65,"frequent fit/humidity/cleaning requests","moisture and mold validation",hero MVP
+reptile,Ball python snug warm/cool hide pair,5,4,5,4,3,4,4,5,4.30,"two-hide husbandry and size pain","large sizes raise freight",hero MVP
+reptile,Crested gecko cave plus removable feeder ledge,4,4,5,4,4,4,5,4,4.25,"vertical-space and multi-function demand","mounting failure",MVP after load test
+reptile,Bearded dragon cave plus basking deck,4,3,5,4,2,3,5,4,3.80,"dual-use basking/hide","heat and weight",phase 2
+reptile,Frog humid shelter with drainage insert,3,4,5,4,4,3,4,4,3.85,"high-humidity cleaning gap","microbial growth",small test
+reptile,Species-fit natural water bowl with smooth interior,4,4,5,4,3,2,4,5,3.90,"natural exterior/smooth bowl request","food-contact migration",phase 2 after FCM test
+reptile,Modular background ledges,4,3,5,4,2,4,5,5,3.95,"bioactive visual content","mounting/oversize",phase 2
+reptile,Inspectable snake tunnel with access port,3,5,5,4,3,3,4,4,3.90,"closed tunnels hard to inspect","escape and lid security",prototype only
+reptile,Replaceable humidity liner accessory,3,5,4,5,5,5,3,5,4.25,"repeat and hygiene","compatibility fragmentation",add-on MVP
+reptile,Decorative universal rock hide,4,1,5,3,3,4,4,3,3.40,"large existing category","commodity price war",do not lead
+aquarium,Uncoated ceramic betta cave single entrance,5,5,5,4,5,3,5,5,4.65,"sharp edge and entrapment pain","species testing",MVP conditional
+aquarium,Pleco breeding cave S/M/L,5,4,5,4,5,4,4,5,4.50,"breeder demand and ceramic precedent","fit taxonomy",MVP conditional
+aquarium,Shrimp micro-shelter with cleaning access,4,4,5,4,5,4,5,5,4.40,"nano/shrimp visual niche","tiny openings and detritus",MVP conditional
+aquarium,Kuhli loach smooth shelter,4,5,5,4,4,4,4,4,4.30,"sharp-surface concern and niche gap","burrowing stability",phase 2
+aquarium,Plant-attachment ceramic modules,4,4,5,4,5,4,5,5,4.40,"planted-tank compatibility","algae cleaning",phase 2
+aquarium,Modular stackable cave system,4,4,5,4,3,3,5,5,4.10,"series and reconfiguration","collapse/entrapment",prototype only
+aquarium,Turtle basking hide large,4,4,4,4,1,3,5,4,3.70,"large-size gap","freight and load",local wholesale only
+aquarium,Natural-looking resin ledge,4,2,5,4,3,2,4,4,3.55,"mainstream demand","coating/leaching",delay
+aquarium,Themed resin ruin with swim-throughs,4,1,5,3,2,1,5,3,3.10,"visual demand","IP/entrapment/coating",no-go first launch
+aquarium,Moving bubbler ornament,3,2,4,3,2,2,5,3,3.00,"novelty content","breakage/mechanical failure",no-go
+home,Small functional sculpture collection,4,4,5,5,4,5,5,5,4.55,"functional objects support premium","needs original design language",test drop
+home,Sculptural bookend pair,4,4,5,5,3,5,5,5,4.45,"giftable and AOV-friendly","weight/freight",test drop
+home,Collectible catchall/tray,4,4,5,5,5,4,5,5,4.55,"functional gift under $150","food-contact ambiguity if misused",test drop
+home,Statement vase with replaceable insert,4,5,5,5,3,4,5,5,4.50,"waterproof function plus sculpture","leak/fragility",test drop
+home,Limited color numbered mini sculpture,4,3,5,5,5,5,5,5,4.50,"drop/scarcity model","requires design authority",test only with artist
+home,Modular wall relief tiles,3,4,5,5,4,5,5,5,4.35,"repeatable series and low depth","mounting/IP",phase 2
+home,Designer candleholder,4,4,5,5,4,2,5,5,4.25,"gift and function","fire/heat liability",delay
+home,Resin character lamp,4,3,5,5,1,1,5,5,3.70,"Seletti/Qeeboo proof","electrical/fire/oversize",no-go first launch
+home,Large resin animal sculpture,3,2,5,4,1,4,5,4,3.45,"visual impact","freight/copycat/cheapness",wholesale only
+home,Generic abstract face figurine,3,1,5,3,5,5,3,2,3.35,"platform demand","severe saturation",no-go
