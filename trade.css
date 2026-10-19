@@ -1,0 +1,249 @@
+.trade-proof-strip {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.buyer-facts,
+.buyer-evidence {
+  background: #f1f0ec;
+}
+
+.buyer-fact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: clamp(28px, 4vw, 56px);
+  background: rgba(34, 34, 38, .15);
+  border: 1px solid rgba(34, 34, 38, .15);
+}
+
+.buyer-fact-grid article {
+  min-height: 230px;
+  padding: clamp(22px, 3vw, 38px);
+  background: #fff;
+}
+
+.buyer-fact-grid article > span {
+  color: #2845e8;
+  font-size: .74rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+
+.buyer-fact-grid h3 {
+  margin: 46px 0 12px;
+  font-size: clamp(1.18rem, 1.7vw, 1.55rem);
+}
+
+.buyer-fact-grid p {
+  margin: 0;
+  color: #5d5d64;
+  line-height: 1.55;
+}
+
+.buyer-fact-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.trade-buying-strip {
+  margin-top: clamp(30px, 6vw, 80px);
+  background: #222226;
+  color: #fff;
+}
+
+.trade-buying-strip .shell {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background: rgba(255, 255, 255, .2);
+}
+
+.trade-buying-strip .shell > div {
+  display: grid;
+  gap: 8px;
+  min-height: 150px;
+  align-content: center;
+  padding: 26px clamp(20px, 3vw, 38px);
+  background: #222226;
+}
+
+.trade-buying-strip strong {
+  font-size: 1.08rem;
+}
+
+.trade-buying-strip span {
+  color: rgba(255, 255, 255, .68);
+  line-height: 1.5;
+}
+
+.product-capability {
+  position: relative;
+}
+
+.quote-add {
+  border: 1px solid rgba(34, 34, 38, .24);
+  border-radius: 999px;
+  background: #fff;
+  color: #222226;
+  cursor: pointer;
+  font: inherit;
+  font-size: .82rem;
+  font-weight: 750;
+  padding: 10px 16px;
+  transition: background .2s ease, color .2s ease, border-color .2s ease;
+}
+
+.product-capability > .quote-add {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 2;
+}
+
+.quote-add:hover,
+.quote-add:focus-visible,
+.quote-add.is-added {
+  border-color: #2845e8;
+  background: #2845e8;
+  color: #fff;
+}
+
+.quote-add-current {
+  width: 100%;
+  margin: 18px 0 10px;
+  border-radius: 8px;
+}
+
+.quote-tray {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 90;
+  width: min(370px, calc(100vw - 32px));
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, .18);
+  border-radius: 14px;
+  background: #222226;
+  color: #fff;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, .24);
+}
+
+.quote-tray[hidden] {
+  display: none;
+}
+
+.quote-tray > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 13px;
+}
+
+.quote-tray button {
+  border: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, .66);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.quote-tray .button {
+  display: block;
+  text-align: center;
+}
+
+.has-quote-tray .ask-able-launcher {
+  bottom: 152px;
+}
+
+.rfq-note {
+  display: grid;
+  gap: 8px;
+  margin-top: 28px;
+  padding: 22px;
+  border-left: 4px solid #2845e8;
+  background: #f1f0ec;
+}
+
+.rfq-note span {
+  color: #5d5d64;
+}
+
+.quote-selection-field textarea[readonly] {
+  color: #222226;
+  background: #eef0ff;
+  border-color: rgba(40, 69, 232, .32);
+}
+
+.quote-selection-field[hidden] {
+  display: none !important;
+}
+
+.image-unavailable {
+  position: relative;
+  min-height: 180px;
+  background: linear-gradient(135deg, #ecebe7, #f8f7f3);
+}
+
+.image-unavailable img {
+  opacity: 0;
+}
+
+.image-unavailable::after {
+  content: 'Product image temporarily unavailable';
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  color: #77777e;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .trade-proof-strip,
+  .buyer-fact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .trade-buying-strip .shell {
+    grid-template-columns: 1fr;
+  }
+
+  .trade-buying-strip .shell > div {
+    min-height: 112px;
+  }
+}
+
+@media (max-width: 600px) {
+  .trade-proof-strip,
+  .buyer-fact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .buyer-fact-grid article {
+    min-height: 0;
+  }
+
+  .buyer-fact-grid h3 {
+    margin-top: 26px;
+  }
+
+  .buyer-fact-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .quote-tray {
+    right: 16px;
+    bottom: 16px;
+  }
+}
